@@ -21,9 +21,7 @@ This is Simple maintenance service system build in java and Firebase, this appli
 
 <img src="images/3.png" alt="App UI" width="480 " height="852"> <img src="images/4.png" alt="App UI" width="480 " height="852">
 
-<img src="images/5.png" alt="App UI" width="480 " height="852">
-
-<img src="images/6.png" alt="App UI" width="480 " height="852">
+<img src="images/5.png" alt="App UI" width="480 " height="852"> <img src="images/6.png" alt="App UI" width="480 " height="852">
 
 <img src="images/7.png" alt="App UI" width="480 " height="852">
 

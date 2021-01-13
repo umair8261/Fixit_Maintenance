@@ -11,7 +11,7 @@ This is Simple maintenance service system build in java and Firebase, this appli
   <h4><ul>
   <li>Lottie Animation</li>
   <li>Paper onBoarding</li>
-  <li>Push Notification</li>
+  <li>Facebook like card view</li>
 </ul></h4>
 
 

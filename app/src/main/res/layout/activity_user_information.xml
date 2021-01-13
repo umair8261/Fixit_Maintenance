@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f2f5"
+    tools:context=".User_information">
+
+
+    <ImageView
+
+        android:id="@+id/user_img"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toTopOf="@+id/edt_fullname"
+        app:layout_constraintEnd_toEndOf="@+id/edt_fullname"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/edt_fullname"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/orignal" />
+
+    <EditText
+
+        android:id="@+id/edt_usernumber"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:hint="Enter Mobile No."
+        android:inputType="textPersonName"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_userInstruction"
+        app:layout_constraintEnd_toEndOf="@+id/edt_userInstruction"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/edt_userInstruction"
+        app:layout_constraintTop_toBottomOf="@+id/edt_useraddress" />
+
+
+    <EditText
+
+        android:id="@+id/edt_date"
+        android:layout_width="270dp"
+
+        android:layout_height="40dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:hint="Select Date"
+        android:inputType="textPersonName"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_usertime"
+        app:layout_constraintEnd_toEndOf="@+id/edt_usertime"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/edt_usertime"
+        app:layout_constraintTop_toBottomOf="@+id/edt_city" />
+
+    <EditText
+
+        android:id="@+id/edt_useraddress"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:hint="Enter Address"
+        android:inputType="textPersonName"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_usernumber"
+        app:layout_constraintEnd_toEndOf="@+id/edt_usernumber"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/edt_usernumber"
+        app:layout_constraintTop_toBottomOf="@+id/edt_usertime" />
+
+    <EditText
+
+        android:id="@+id/edt_usertime"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:hint="Enter Time"
+        android:inputType="textPersonName"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_useraddress"
+        app:layout_constraintEnd_toEndOf="@+id/edt_useraddress"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/edt_useraddress"
+        app:layout_constraintTop_toBottomOf="@+id/edt_date" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Submit"
+        android:onClick="submit_req"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_moreservices" />
+
+    <EditText
+        android:id="@+id/edt_userInstruction"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:hint="      Enter Instruction (Optional)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/edt_moreservices"
+        app:layout_constraintEnd_toEndOf="@+id/edt_moreservices"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/edt_moreservices"
+        app:layout_constraintTop_toBottomOf="@+id/edt_usernumber" />
+
+    <EditText
+        android:id="@+id/edt_moreservices"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:hint="      Get More Services (Optional)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btn_submit"
+        app:layout_constraintEnd_toEndOf="@+id/btn_submit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_submit"
+        app:layout_constraintTop_toBottomOf="@+id/edt_userInstruction" />
+
+    <EditText
+        android:id="@+id/edt_fullname"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:hint="Enter FullName"
+        android:inputType="textPersonName"
+        android:paddingLeft="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_city"
+        app:layout_constraintEnd_toEndOf="@+id/edt_city"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/edt_city"
+        app:layout_constraintTop_toBottomOf="@+id/user_img" />
+
+    <EditText
+        android:id="@+id/edt_city"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:paddingLeft="25dp"
+        android:hint="Enter City"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/edt_date"
+        app:layout_constraintEnd_toEndOf="@+id/edt_date"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt_date"
+        app:layout_constraintTop_toBottomOf="@+id/edt_fullname" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

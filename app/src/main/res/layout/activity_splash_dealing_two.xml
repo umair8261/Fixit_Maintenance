@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash_dealing_two">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIXIT Multiple Services"
+        android:textAlignment="center"
+        android:textColor="#039be5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔹️Property &amp; Real Estate Consultant
+        \n
+🔸New Home Builders
+\n
+🔹Service Center for all Electronics
+    Brands(Appliances)
+\n
+🔸Call Center
+\n
+🔹Building Materials
+\n
+🔸Excel Cable
+\n
+🔹Tuff / Concrete / Ceramics Tiles
+\n
+🔸Cement (Three Brands)
+\n
+🔹Steel Bar (Three Brands)
+\n
+🔸Aggregate
+\n
+🔹Char Coal (Pakistan/Indonesia/South Africa/Afghanistan) For Factory/ Mill Supplies
+\n
+🔸Salt For Factory / Mill Supplies
+
+
+\n
+🔸We have experienced team ready to provide you services,
+\n
+🔹Your satisfaction is our confidence"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Next"
+        android:onClick="next_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:layout_editor_absoluteX="162dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

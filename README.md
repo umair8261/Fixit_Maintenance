@@ -1,3 +1,5 @@
+<html>
+<body>
 <h1>Fixit Maintenance App</h1><br> 
 <p>An Maintenance Services app which let users to place order to different services like paint, electrical services, plumbing etc. 
 This is Simple maintenance service system build in java and Firebase, this application provides all the features like place order, specific date & time and Push Notification.</p>
@@ -15,22 +17,27 @@ This is Simple maintenance service system build in java and Firebase, this appli
 
 <h1>Application UI</h1>
 
-<img src="images/Screenshot_1610102314.png" alt="App UI" width="480 " height="852">
+<img src="images/1.png" width="480 " height="852">
 
-<img src="images/Screenshot_1610102328.png" alt="App UI" width="480 " height="852">
+<img src="images/2.png" width="480 " height="852">
 
-<img src="images/Screenshot_1610102331.png" alt="App UI" width="480 " height="852">
+<img src="images/3.png" alt="App UI" width="480 " height="852">
 
-<img src="images/Screenshot_1610102334.png" alt="App UI" width="480 " height="852">
+<img src="images/4.png" alt="App UI" width="480 " height="852">
 
-<img src="images/Screenshot_1610102353.png" alt="App UI" width="480 " height="852">
+<img src="images/5.png" alt="App UI" width="480 " height="852">
 
-<img src="images/Screenshot_1610102357.png" alt="App UI" width="480 " height="852">
+<img src="images/6.png" alt="App UI" width="480 " height="852">
 
-<img src="images/Screenshot_1610102360.png" alt="App UI" width="480 " height="852">
+<img src="images/7.png" alt="App UI" width="480 " height="852">
 
-<img src="images/Screenshot_1610102364.png" alt="App UI" width="480 " height="852">
+<img src="images/8.png" alt="App UI" width="480 " height="852">
+
+<img src="images/9.png" alt="App UI" width="480 " height="852">
 
 
 <h1>Activity Diagram</h1>
-<img src="images/Screenshot_1610102364.png" alt="App UI" width="480 " height="852">
+<img src="images/activity.png" alt="App UI">
+
+</body>
+</html>
